@@ -1,0 +1,94 @@
+% Metódy inžinierskej práce
+
+\documentclass[10pt,twoside,slovak,a4paper]{article}
+
+\usepackage[slovak]{babel}
+\usepackage[IL2]{fontenc} % lepšia sadzba písmena Ľ než v T1
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{url} % príkaz \url na formátovanie URL
+\usepackage{hyperref} % odkazy v texte budú aktívne
+\usepackage{array} % pre tabuľky
+\usepackage{cite}
+
+\pagestyle{plain}
+
+\title{PlantPal – Inteligentný asistent pre starostlivosť o rastliny}
+
+\author{Alexej Muška,Justin Miklenčič,Jana Michančova\\[2pt]
+	{\small Slovenská technická univerzita v Bratislave}\\
+	{\small Fakulta informatiky a informačných technológií}\\
+	{\small \texttt{xmuska@stuba.sk,xmiklencic@stuba.sk,xmichncova@stuba.sk}}
+	}
+
+\date{\small 11. oktober 2025}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+Tento článok predstavuje projekt \textbf{PlantPal}, inteligentnú aplikáciu, ktorá uľahčuje starostlivosť o rastliny prostredníctvom pripomienok, databázy informácií a plánovania pestovateľských úloh. Aplikácia reaguje na rastúci záujem o ekologický životný štýl a domáce pestovanie rastlín a poskytuje praktický nástroj pre pravidelnú starostlivosť, znižuje riziko uhynutia rastlín a podporuje environmentálne povedomie používateľov.
+\end{abstract}
+
+\section{Úvod}
+
+V súčasnosti rastie záujem o domácu zeleň a pestovanie rastlín. Rastliny zlepšujú kvalitu života, prispievajú k zníženiu stresu a zlepšujú mikroklímu domácnosti. Mnoho ľudí však naráža na problémy ako nepravidelné polievanie, nevhodné svetelné podmienky alebo zanedbanie sezónnej starostlivosti, čo vedie k oslabeným alebo uhynutým rastlinám.
+
+Projekt PlantPal vznikol s cieľom ponúknuť používateľom jednoduchý a prehľadný nástroj, ktorý im pomôže udržiavať rastliny zdravé a motivovať ich k pravidelnej starostlivosti.
+
+\section{Motivácia projektu}
+
+Motiváciou je zlepšiť dostupnosť informácií o pestovaní a podporiť ekologické povedomie používateľov. Aplikácia má pomáhať pestovateľom, aby ich rastliny rástli zdravo a predišli častým chybám, ako je prelievanie alebo zanedbanie.
+
+\newpage
+\section{Cieľ projektu}
+
+Cieľom projektu je vytvoriť aplikáciu, ktorá:
+\begin{itemize}
+\item poskytne pripomienky polievania, hnojenia a presádzania rastlín,
+\item umožní zaznamenávať rast a stav rastlín (denník rastu),
+\item obsahuje databázu informácií o rôznych druhoch rastlín,
+\item umožní personalizáciu podľa prostredia a podmienok používateľa,
+\item bude mať jednoduché a prehľadné používateľské rozhranie.
+\end{itemize}
+
+\section{Popis riešenia}
+
+PlantPal funguje ako digitálny „osobný asistent“ pre rastliny. Používateľ pridá svoje rastliny do aplikácie, ku ktorým sa automaticky priradia odporúčania pre starostlivosť. Aplikácia je navrhnutá tak, aby podporovala pravidelnú starostlivosť a pomáhala predchádzať bežným chybám pri pestovaní. V budúcnosti je možné rozšíriť funkcionalitu o rozpoznávanie rastlín podľa fotografie, komunitné zdieľanie skúseností a integráciu s inteligentnými senzormi.
+
+\section{Výhody a nevýhody projektu}
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{|>{\raggedright}p{7cm}|>{\raggedright\arraybackslash}p{7cm}|}
+\hline
+\textbf{Výhody} & \textbf{Nevýhody} \\
+\hline
+Jednoduchosť používania a prehľadné rozhranie & Potreba vytvoriť rozsiahlu databázu rastlín \\
+\hline
+Podpora pravidelnej starostlivosti a udržania rastlín zdravých & Technická náročnosť implementácie notifikácií a personalizácie \\
+\hline
+Ekologický a udržateľný charakter projektu & Účinnosť závisí od pravidelného používania používateľom \\
+\hline
+Možnosť personalizácie podľa druhu rastliny a prostredia & Potrebné riešenie financovania a údržby aplikácie \\
+\hline
+Potenciál rozšírenia o nové funkcie (AI rozpoznávanie, komunitné funkcie) & Konkurencia na trhu s podobnými aplikáciami \\
+\hline
+Podpora environmentálneho povedomia a vzťahu používateľa k rastlinám & - \\
+\hline
+\end{tabular}
+\caption{Výhody a nevýhody projektu PlantPal}
+\label{tab:vyhody_nevyhody}
+\end{table}
+
+\newpage
+\section{Zaver}
+
+Projekt PlantPal spája technologickú inovatívnosť s praktickým a environmentálnym prínosom. Aplikácia pomáha používateľom vytvoriť si pravidelný režim starostlivosti o rastliny, podporuje ekologické povedomie a môže byť základom pre ďalší rozvoj funkcií a komunitných možností. Napriek výzvam spojeným s technickou realizáciou a konkurenciou na trhu má projekt vysoký potenciál byť užitočným a spoločensky prínosným nástrojom pre každodenné pestovanie rastlín.
+
+\bibliography{literatura}
+\bibliographystyle{plain}
+
+\end{document}
+
